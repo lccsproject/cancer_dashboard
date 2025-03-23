@@ -70,44 +70,71 @@
 
 <section id="investigation">
   <h2>Investigation</h2>
-  <p>Research was conducted on the Respiratory Virus Data Hub, Met Éireann, and the National Cancer Registry Ireland (NCRI). While all sources offered insightful data, cancer trends were prioritized due to their long-term health implications and personal interest.</p>
+  <p>I started my research by looking at the links provided in the brief, which offered me a strong understanding of Respiratory Virus Data Hub.
+    Key Metrics include – Covid 19, and Influenza cases. Since Week 40 of 2024 there have been 3,271 cases of Covid 19 and 221 outbreaks which have by location been most common in education. 
+    With influenza there have been 14,657 cases from week 40 of 2024. This Data is useful for medical professionals, the general public and policymakers. The Purpose is to spread knowledge
+    The next thing I researched using the links in the brief was Met Éireann. The Key Metrics gave me information on temperatures and precipitation in Ireland. The average temperature in November 2024 was 8.95 °C which is 1.89 °C above the 1961-2000 average.
+    For precipitation, the percentage of monthly rainfall values ranged from county to county, but the range was in Co. Mayo at 75.4mm its driest November since 2013 to 128.5mm in Co Cork its wettest since 2018. This data is important for meteorologists. 
+    The purpose is to promote health and safety as well as alerts. 
+    What I then researched was The National Cancer Registry Ireland. The Key Metrics include Cancer diagnosis, mortality and the median age and the risks of how common each cancer is.
+    Between 2020-2022 An average of 24,200 tumors were diagnosed all being invasive. The mortality between 2020-2022 was that on average 9,800 cancer related deaths occurred. In 2021 The risk of getting any type of invasive cancer as a man was 1 in 3. Then the median age 
+    of death for invasive cancers was 74 for both genders. This data is important for medical professionals and researchers. </p>
 </section>
 
-<section id="analysis">
-  <h2>One In Greater Detail - Cancer Registry</h2>
-  <p>The NCRI provides interactive dashboards and high-quality datasets on cancer trends. In 2021, over 25,000 cases were reported. The site aims to visualize trends, explore risks, and inform the public about prevention and treatment using comprehensive datasets.</p>
+<section id="investiagtion - In greater detail">
+  <h2>One In Greater Detail - National Cancer Registry Ireland </h2>
+  <p> The National Cancer Registry Ireland provides an interactive dashboard analyzing cancer trends in Ireland focusing on diagnosis, morality, median age at diagnosis and death. Correlations between each topic are visualized using bar charts, line charts and tables. 
+    The National Cancer Registry Ireland has published its “Cancer in Ireland 1994-2022: Annual Statistical Report” which is one of the most trusted sources of information on cancer in Ireland. In 2021 25,331 people were diagnosed with invasive cancer 13,425 of which were male and 11906 were female. 
+    The risk of getting cancer being a male was 1 in 3 and most commonly diagnosed cancer that year was prostate. Whereas for females the risk was 1 in 4 and the most common type of cancer was breast coming in a 3802 being diagnosed. Additional data from Irish Cancer Society and International Agency for Research on Cancer (IARC).
+    A weakness is the time lag on data availability, as the last report they sent out was 1994-2021, this is because of the time required for validation and analysis. An advantage of this is that it is the data is comprehensive and high-quality.  
+    My Personal Interest is because of scientific curiosity, I am interested in analysing cancer trends as I can then understand risk factors and the environment and economic impact cancer has on our lives. 
+    I hope to inspire others to understand the importance of cancer and the effects of it.  I Did Not Choose Respiratory Virus Data Hub because I want to help the future generations, and cancer plays a more significant role.  
+    I did not choose Met Éireann because I am interested in learning about more scientific research than geographical data.  </p>
 </section>
 
 <section id="design">
   <h2>Plan and Design</h2>
-  <p>A top-down, modular approach is used. The site includes graphs, filters, and user surveys. Data is visualized using charts and analyzed with Python. Feedback will be collected via surveys on public awareness and preferences for cancer care.</p>
+  <p>The solution I will address is the role of cancer and its impact on Ireland, focusing on Mortality, Types of Cancers, and the Risk of each type of cancer I am addressing. I will create an interactive website with clickable graphs,
+    and line charts to explore data, visualising trends and show cancers and the impact and how important public knowledge is. 
+    The site will include a user survey to gather feedback on Cancer and provide recommendations for treatment and preventions. 
+
+ </p>
 </section>
 
-<section id="objectives">
-  <h2>Objectives</h2>
+<section id="meetting requirements">
+  <h2>meeting requirements</h2>
   <ul>
-    <li>Improve public understanding of cancer and its societal impact</li>
-    <li>Learn about historical trends and preventive strategies</li>
+    <li>To collect and prepare the data, I will select datasets from reliable sources such as the NCRI, IARC & EEA. Using Python Pandas, I will extract, clean, and format the data, ensuring it is ready for analysis and export it to .csv files.
+      For data analytics and visualization, I will use Python Pandas DataFrames to analyze the dataset and Matplotlib to create bar charts and line graphs highlighting cancer types and the trends of each one - Visualization will have titles, axis labels, and legends. </li>
+    <li>The interactive information system will be a web-based dashboard displaying key information and data. To ensure users can interact with visualizations, I will add features like hovering for details, clicking to filter data by region or year, and adjusting ranges for trend analysis.
+      A user survey will collect data on trends and public awareness of cancer types using JavaScript for 2 types of data (cancer awareness perception and healthcare and screening preferences). Data will be stored in a database or file, summarized, and displayed to show overall trends. </li>
   </ul>
 </section>
 
 <section id="log">
   <h2>Progress Log</h2>
   <h3>Week 1 - Investigation</h3>
-  <p>Analyzed multiple datasets, focused on cancer research due to relevance and interest.</p>
+  <p>Researched data sources. Analysed Covid data from Respiratory Virus Data Hub, conducted by looking at Covid and comparing it to influenza.
+    I researched Met Éireann, looking at weather patterns and trends, and finally Analyzed cancer trends from NCRI and IARC over the years comparing all different types of cancer and their results. 
+    Prioritized Global Cancer over Weather and Covid, aligning with my interests in large problems in healthcare this being said - Cancer Research fits in.  </p>
   <h3>Week 2 - Plan & Design</h3>
-  <p>Outlined flowchart for user interactions and components.</p>
+  <p>Used a flowchart to outline how my interactive website would work. Clickable graphs, user surveys, and recommendations; interactive filtering and trend analysis 
+    Using Flask, Pandas, Matplotlib, Plotly, and JavaScript for data processing, visualization, and interactivity. Adopting an agile methodology for flexibility and continuous improvement. </p>
   <h3>Week 3 - Data Cleaning</h3>
-  <p>Used Python to clean datasets and prepare for analysis.</p>
+  <p>Dataset read into a list via Python and stored. Printed out the dataset in Python to see if it displayed correctly. 
+    Used replace function to remove non-numeric characters. Added clean data to the new list to be used for creating graphs. </p>
   <h3>Week 4 - Visualization</h3>
-  <p>Created interactive line graphs and charts with Matplotlib & Plotly.</p>
+  <p>Used Python Pandas to load the dataset, removed missing values, and converted data into a structured format.
+    Processed cleaned data and generated line graphs using Matplotlib & Plotly to visualize electricity generation trends. 
+    Implemented hover effects & filtering to allow users to explore specific years and trends dynamically.</p>
 </section>
 
 <section id="tech">
   <h2>Technologies Used</h2>
   <ul>
     <li>Python (Pandas, Matplotlib, Plotly)</li>
-    <li>Flask (for backend)</li>
+   <li>JSON will be used to return formatted data, such as correlation results between variables, from the backend to the frontend for display. </li>
+    <li>Flask (for backend) </li>
     <li>HTML, CSS, JavaScript (for frontend and interactivity)</li>
     <li>Firebase (for user data storage)</li>
   </ul>
@@ -115,7 +142,16 @@
 
 <section id="evaluation">
   <h2>Evaluation</h2>
-  <p>All basic and most advanced requirements were met, with a fully functional prototype of an interactive dashboard. Future improvements could include real-time updates and enhanced filtering features.</p>
+  <p>Basic Requirements- I sourced datasets from the NCRI, IARC and EEA using Pandas to extract, clean, and structure them in DataFrames before exporting for analysis. The process was documented with code snippets and dataset comparisons. 
+    Using Pandas, I analyzed key trends and created line graphs with Matplotlib. The line graphs compare Different cancer trends with each other. Each Visualization includes titles, axis labels, and legends for clarity. Lists and dictionaries managed the dataset efficiently. 
+    I developed a web-based dashboard to make insights accessible. It includes interactive features like accessing research and recommendations for Cancer.  
+    Advanced Requirements- I used Python Flask for real-time data analysis and personalized feedback. Google Firebase manages authentication, while structured data is stored in CSV files. The system collects and validates at least three data types before storage. 
+    To collect user data, I implemented a form that captures responses with at least three data types. The system validates inputs and securely stores the data in CSV files for future analysis. Some collected data is summarized and displayed within the dashboard,
+    ensuring users can see key trends from responses.
+    A recommendations section provides data-driven insights. Using Pandas and Matplotlib, I analyzed trends—such as breast and prostate cancer trends and showed the difference and the risks of each disease.  
+    Meeting Objectives - Improve Public Understanding of Cancer and the risks: My interactive dashboard succeeds in visualizing this by using line graphs. It includes features like hover effects and filtering improve understanding of Ireland's trends and how they are changing.  
+    Cancer research: By analyzing historical trends, researching these trends, and seeing Improvement or decline. This is all available on the information page of the interactive website. I wanted to make it more interactive by allowing users to adjust filters and test scenarios, but the complexity of filtering would have been too difficult. 
+    I also hoped to provide a suggestions section with simple recommendations, but prioritizing core features left no room for this addition. Finally, integrating real-time data would keep insights and data up to date, but limited resources with this topic and technical challenges made this unfeasible within the project scope. </p>
 </section>
 
 <footer>
